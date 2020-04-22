@@ -13,7 +13,7 @@ class CashRegister
     def add_item(title, price, amount=1)
         amount.times do
             self.total += price
-            self.items=(title)
+            self.items = title
             self.lastprice = price
         end
     end
